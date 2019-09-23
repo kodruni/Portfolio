@@ -108,6 +108,9 @@ h2 {
   letter-spacing: 0.5em;
   text-shadow: 1px 2px gray; }
 
+h3 {
+  letter-spacing: 0.25em; }
+
 section {
   display: flex;
   justify-content: center;
@@ -197,5 +200,50 @@ footer {
     bottom: 50px; }
   100% {
     bottom: 0px; } }
+
+.contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.contact-form-message {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between; }
+
+.txt {
+  padding: 2em 2em 1em 2em; }
+
+input {
+  width: 15.5rem;
+  height: 3rem;
+  border-radius: 0.5em; }
+
+textarea {
+  width: 35rem;
+  height: 10rem;
+  background-color: white;
+  border-radius: 0.5em; }
+
+button {
+  height: 4rem;
+  margin: 1em 0 0 0;
+  background: #0478DF;
+  border-radius: 0.5em;
+  border: none;
+  color: white;
+  border: 1px solid #021672; }
+
+@media (max-width: 658px) {
+  .contact-form-message textarea {
+    width: 30rem;
+    height: 8rem; }
+  .contact-form-message input {
+    width: 8rem;
+    height: 2rem; }
+  .txt {
+    padding: 1rem; } }
+
+/*incomplete*/
 
 /*# sourceMappingURL=main.css.map */
